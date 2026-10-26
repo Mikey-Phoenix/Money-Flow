@@ -28,11 +28,12 @@ A personal budget tracker for logging income and expenses, setting monthly budge
 - tailwindcss
 
 ### Installation
+```
 npm i react-router-dom
 npm i react-icons
 npm install sileo
 npm install tailwindcss @tailwindcss/vite
-
+```
 ```bash
 git clone https://github.com/Mikey-Phoenix/moneyflow.git
 cd moneyflow
