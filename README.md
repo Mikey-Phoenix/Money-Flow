@@ -1,19 +1,49 @@
-# React + Vite
+# MoneyFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal budget tracker for logging income and expenses, setting monthly budgets, and seeing where your money goes.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Secure sign-up and login (email/password and Google)
+- Add, edit, and delete income and expense entries
+- Set a monthly budget and track progress against it
+- Spending breakdown by category
+- Responsive layout for desktop and mobile
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tech Stack
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- **Frontend:** React, Vite
+- **Tooling:** Oxlint, React Compiler
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Prerequisites
+
+- Node.js 18 or later
+- npm
+- react-router-dom
+- react-icons
+- sileo
+- tailwindcss
+
+### Installation
+npm i react-router-dom
+npm i react-icons
+npm install sileo
+npm install tailwindcss @tailwindcss/vite
+
+```bash
+git clone https://github.com/Mikey-Phoenix/moneyflow.git
+cd moneyflow
+npm install
+```
+
+
+## Author
+
+**Michael**: [@Mikey-Phoenix](https://github.com/Mikey-Phoenix)
+
+## License
+
+MIT
