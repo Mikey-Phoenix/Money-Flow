@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand */
+  --primary: #4D3A3A;
+  --primary-text: #FFFFFF;
+
+  /* Backgrounds */
+  --background: #FFFCF1;
+  --surface: #FFFFFF;
+  --surface-muted: #EDECE6;
+
+  /* Decorative colors */
+  --sage: #B2C0B2;
+  --sage-light: #C2CCC4;
+  --dusty-rose: #A17A7A;
+  --muted-mauve: #A6908C;
+
+  /* Typography */
+  --text-main: #4D3A3A;
+  --text-muted: #9B9A92;
+
+  /* Borders */
+  --border: #D9DED9;
+}
